@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+/*Estilos del Body*/
+body{
+   font-family: Arial, Helvetica, sans-serif;
+    text-size-adjust: 2px;
+    background-image: url("../80091148-calabash-mate-patrón-en-el-fondo-blanco-ilustración-del-vector.jpg");
+   }
+h1{
+    text-align: center;
+    padding: auto;
+    margin: 10px;
+    text-size-adjust: 1rem;
+}
+/*Conteriner de Pagina N·1*/
+.conteiner{
+    border: solid 2px;
+    padding: 10px;
+    margin: auto;
+   background-color: rgb(148, 142, 142);
+   display: flex;
+   flex-flow: row wrap;
+   height: 800px;
+   width: 700px;
+   justify-content: space-between;
+}
+.caja img{
+    width: 170px;
+    height: 170px;
+}
+.caja{
+    border: solid 2px;
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+    width: 200px;
+    height: 200px;
+}
+/*Navegador de todas las paginas*/
+Nav{
+   padding: 10PX;
+   background-color: black;
+   width: 100%;
+   height: 60px;
+   text-align: center;
+   border: 10px solid black;
+   margin-bottom: 2px;
+   text-decoration: none;
+}
+.lista1 li {
+    padding: 7px;
+    display: inline;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 2px white;
+}
+.lista1 li:hover{
+    box-shadow: 10px;
+    background-color: rgb(44, 149, 70);
+}
+.lista1 a {
+    color: rgb(222, 220, 220);
+    text-decoration: none;
+}
+/*Footer De todas las paginas*/
+footer{
+    text-align: center;
+    background-color: rgb(42, 40, 40);
+    color: aliceblue;
+}
+h3{
+    padding: 20px;
+    margin: 10px;
+}
+.formulario1{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+input[type=text]{
+    height: 35px;
+    width: 200px;
+    padding: auto;
+    margin:  10px;
+    text-align: center;
+}
+.btn{
+    width: 40px;
+    height: 40px;
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: black;
+}
+/*Conteiner de pagina 2 */
+.container2 {  
+    border: solid 2px;
+    padding: 10px;
+    margin: auto;
+   background-color: rgb(148, 142, 142);
+   display: flex;
+   flex-flow: row wrap;
+   height: 800px;
+   width: 900px;
+   justify-content: space-between;
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3px 3px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Mate1 mate2 mate3 CuidadoMate"
+      "mate4 mate5 mate6 CuidadoMate"
+      "mate7 mate8 mate9 CuidadoMate";
+  }
+  
+  .container2 img{
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+  
+  }
+  .container2 .Mate1 .mate2 .mate3 .mate4 .mate5 .mate6 .mate7 .mate8 .mate9{
+    border: solid 3px;
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .Mate1 { grid-area: Mate1; }
+  
+  .mate2 { grid-area: mate2; }
+  
+  .mate3 { grid-area: mate3;}
+  
+  .mate4 { grid-area: mate4; }
+  
+  .mate5 { grid-area: mate5; }
+  
+  .mate6 { grid-area: mate6;}
+  
+  .mate7 { grid-area: mate7;}
+  
+  .mate8 { grid-area: mate8; }
+  
+  .mate9 { grid-area: mate9; }
+  
+  .CuidadoMate { grid-area: CuidadoMate;
+text-align: center; }
+p{
+    margin: 10px;
+    padding: 10px;
+}
+iframe{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    padding: 3px;
+    border-radius: 30px;
+}  
+/*Conteiner de pagina 3 (Contactos) */
+.conteiner3{
+    border: solid 2px;
+    padding: 10px;
+    margin: auto;
+   background-color: rgb(148, 142, 142);
+   display: flex;
+   justify-content: center;
+   height: 800px;
+   width: 700px;
+   flex-wrap: wrap;
+}
+.cajahistoria1{
+    text-align: center;
+    justify-content: center;
+width: auto;
+height: 70px;}
+
+.cajahistoria2{
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    height: 70px;
+}
+.conteiner3 img{
+    
+    height: 260px;
+    width: 500px;
+    margin: 2px ;
+    padding: 2px auto;
+    border: solid 3px black;}
+.historiatext{
+    padding: 0.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5px;
+    font-size: 1rem;
+}
+.cajahistoria2 p {
+    text-align: center;
+    padding: 0.1px;
+    margin: 0.3px;
+    font-size:1rem ;
+}
+.cajahistoria1 h3{
+    padding-top: 1px;
+    margin: 1px;
+}
+.cajahistoria2 h3{
+    padding-top: 1px;
+    margin:1px;}
+.cajahistoria1 p{
+    padding-top: 1px;
+    margin: 1px;
+}
+.cajahistoria2 p{
+    padding-top: 1px;
+    margin: 1px;
+}
+/*Responsive @media*/
+
+/*Responsive Computadora*/
+
+@media (max-width:1028px){
+    nav{
+    width: auto;
+    display: flex;
+    text-align: center;
+justify-content: center;}
+    .lista1 li {
+        font-size: 0.8rem;
+        flex-direction: column;}
+    .conteiner{
+        display: flex;
+        width: auto;
+    height: auto;}
+    .menu{
+        width: auto;}
+    .conteiner3{
+         display: flex;}
+    .conteiner3 img{
+        width: auto;}
+    .cajahistoria2{
+        width: auto;
+    }
+}
+/*Responsive Telefono*/
+ @media (max-width:480px){
+    nav{
+        display: flex;
+        width: auto;
+        height: auto;
+    text-align: center;
+justify-content: center;}
+    .lista1 li {
+        height: 100px
+        width: auto;
+        text-align: center;
+        display: block;}
+    .cajahistoria1{
+        width: auto;
+    }
+    .footer{
+        width: auto;
+    } 
+    .conteiner3{
+        }
+    .conteiner3 .cajahistoria1{
+        width: auto;
+    }}
+/*Responsive Tablet*/
+
+@media( max-width:767px){
+      nav{
+        width: auto;
+        text-align: center;}
+    .lista1 li {
+        
+    }
+    .conteiner3{
+        width: auto;
+    }
+    .conteiner3 img{
+        width: 400px;
+        height: 200px;
+    }
+
+}
+    
+  
+    
+    
+
+
+
+
+    
+
